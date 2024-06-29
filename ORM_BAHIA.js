@@ -2,7 +2,7 @@ class ORM_SUL_MATOGROSSO {
     #_lista
     #_id
     constructor() {
-        if(this.constructor === ORM) {
+        if(this.constructor === ORM_SUL_MATOGROSSO) {
             throw new Error("Classe ORM não pode ser instanciada")
         }
         this.#_lista = []
